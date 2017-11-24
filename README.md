@@ -12,4 +12,9 @@ Motion based door controller system using Raspberry Pi
 - management and palyback of recorded video file list on flask backend
 - video capturing when motion detected for specified time
 - publish mqtt message to pbunub service
+- automatic launch monitor script when RPI boots
 
+# Packages requirements
+    sudo pip install 'pubnub>=4.0.13'
+    sudo apt-get install python-picamera python3-picamera
+    sudo apt install python-gpiozero
