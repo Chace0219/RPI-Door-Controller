@@ -8,3 +8,8 @@ Motion based door controller system using Raspberry Pi
 - PIR motion sensor
 
 # Functionalities
+- monitoring status of PIR and relay status via Flask web service
+- management and palyback of recorded video file list on flask backend
+- video capturing when motion detected for specified time
+- publish mqtt message to pbunub service
+
